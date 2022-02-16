@@ -1,11 +1,15 @@
 import './App.scss';
+import { Header } from './shared/Header';
+import { Footer } from './shared/Footer';
 
 function App() {
   return (
     <>
-      <header>header</header>
-      <main>content</main>
-      <footer>footer</footer>
+      <Header />
+      <main className="flex-shrink-0">
+        <div className="container">content here</div>
+      </main>
+      <Footer />
     </>
   );
 }
