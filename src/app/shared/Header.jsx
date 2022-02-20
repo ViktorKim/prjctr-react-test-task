@@ -3,7 +3,7 @@ export const Header = () => {
     <header>
       <nav className="navbar navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             My notes
           </a>
 
