@@ -5,9 +5,7 @@ export const EditPage = () => {
 
   return (
     <form>
-      <textarea name="content" id={id} cols={30} rows={10}>
-        Edit Note {id}
-      </textarea>
+      <textarea name="content" id={id} cols={30} rows={10} defaultValue={` Edit Note ${id} `} />
     </form>
   );
 };
